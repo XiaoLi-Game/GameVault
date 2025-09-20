@@ -1,11 +1,9 @@
 # ---- Node / Frontend ----
-node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-.idea/
-.vscode/
+
 .DS_Store
 
 # Dist build outputs
@@ -18,7 +16,6 @@ build/
 *.tsbuildinfo
 
 # ---- Logs ----
-logs/
 *.log
 springboot/logs/
 
@@ -77,3 +74,4 @@ reports/
 !README.md
 !部署启动指南.md
 !CLEANUP_SUMMARY.md
+## 清空 .gitignore，允许所有文件被提交
