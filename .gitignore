@@ -1,0 +1,79 @@
+# ---- Node / Frontend ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.idea/
+.vscode/
+.DS_Store
+
+# Dist build outputs
+/dist/
+vue/dist/
+build/
+
+# ---- Vite / Cache ----
+.vite/
+*.tsbuildinfo
+
+# ---- Logs ----
+logs/
+*.log
+springboot/logs/
+
+# ---- Java / Maven ----
+*.class
+/target/
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# ---- Spring Boot ----
+*.orig
+hs_err_pid*
+replay_pid*
+
+# ---- OS Files ----
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---- Environment / Credentials (if any) ----
+.env
+.env.*
+
+# ---- Uploads / Runtime ----
+uploads/
+/tmp/
+
+# ---- IntelliJ / Eclipse ----
+*.iml
+*.ipr
+*.iws
+.idea/
+*.swp
+.settings/
+.classpath
+.project
+
+# ---- Coverage / Reports ----
+coverage/
+reports/
+
+# ---- Archive / Temp ----
+*.tar
+*.zip
+*.7z
+*.gz
+*.tgz
+*.bak
+~$*
+
+# ---- Misc ----
+*.local
+
+# Keep documentation even if non-ascii
+!README.md
+!部署启动指南.md
+!CLEANUP_SUMMARY.md
